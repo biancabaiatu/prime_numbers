@@ -1,0 +1,54 @@
+#ALGORITMII LUCAS SI SOLOVAY-STRASSEN PENTRU GASIREA NUMERELOR PRIME
+
+##Despre
+CURSUL DE ANALIZA ALGORITMILOR
+25 NOIEMBRIE 2021
+Student : Baiatu Bianca-Daniela 323CA
+#Implementare:
+
+                -Lucas.cpp: Implementarea algoritmului Lucas;
+                -Lucas.h: header pentru programul Lucas.cpp unde 
+                pastram semnaturile functiilor;
+
+                -Solovay-Strassen.cpp: Implementarea algoritmului
+                Solovay-Strassen;
+                -Solovay-Strassen.h: header pentru programul 
+                Solovay-Strassen unde pastram semnaturile functiilor;
+
+folderul testGenerator:
+                -generatorIn.cpp: program folosit la generarea testelor
+                de intrare dupa regulile descrise in cadrul etapei 1.
+                Testele contin un numar egal de numere prime si numere
+                generate utilizand metoda random. Limitarile sunt descrie
+                prin macro-uri definite la inceputul programului
+
+                -generatorOut.cpp: program utilizat in generarea fisierelor
+                de output. Programul se foloseste de functia isPrime pentru
+                a popula fisierele de iesire cu numere care sunt sigur prime.
+                
+
+folderul in:
+                -contine testele fixe 1-5 si testele generate cu ajutorul
+                programului generatorIn.cpp.
+                Testele 1-5: teste fixe ce testeaza si cazurile de baza si
+                si contin un numar redus de elemente din intervalul [0,100]
+                Testele 6-20: teste complexe care au scopul de a studia 
+                comportamentul celor doi algoritmi alesi in diferite situatii.
+                Toate testele contin proportii egale de numere prime (50\%) 
+                si numere compuse (50\%). Limitarile sunt descrise de macro-uri.
+
+folderul out:
+                -contine toate testele generate cu ajutorul programului
+                generatorOut.cpp, iar aceste fisiere se comporta ca o
+                referinta pentru verificarea corectitudinii algoritmilor
+        	testati, intrucat testele contin valorile corecte care ar
+        	trebui generate si determina daca algoritmii reusesc sa 
+        	gaseasca solutia sau nu.
+
+Observatii: 
+		Am adaugat in cadrul arhivei si fisierul aferent etapei 1,
+		intrucat am ales sa schimb al doilea algoritm.
+
+Referinte:
+            <https://www.geeksforgeeks.org/lucas-primality-test/>
+            <https://www.geeksforgeeks.org/primality-test-set-4-solovay-strassen/>
